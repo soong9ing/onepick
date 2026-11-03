@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>원픽 OnePick · 나와 가장 잘 맞는 단 한 사람</title>
+  <meta name="description" content="프로필과 원하는 키워드로 나와 가장 잘 맞는 한 사람을 추천해 주는 소개팅 웹앱" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=IBM+Plex+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a href="#/" class="logo">원픽<span>.</span></a>
+    <nav id="nav"></nav>
+  </header>
+
+  <main id="app" aria-live="polite"></main>
+
+  <div id="toast" role="status"></div>
+
+  <footer class="foot">© OnePick · 데모용 프로젝트 — 데이터는 이 브라우저에만 저장돼요</footer>
+
+  <script src="data.js"></script>
+  <script src="match.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
